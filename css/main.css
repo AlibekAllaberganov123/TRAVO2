@@ -12,6 +12,9 @@
   max-width: 1140px;
   margin: 0 auto;
 }
+html {
+  scroll-behavior: smooth;
+}
 .btn1 {
   background: none;
   padding: 20px;
@@ -456,6 +459,7 @@ sub {
 .about__p {
   font-size: 18px;
   line-height: 26px;
+  width: 450px;
 }
 .about__user {
   display: flex;
@@ -466,5 +470,44 @@ sub {
 .about__user--title {
   font-size: 24px;
   font-weight: 700;
+}
+.about__right {
+  width: 677px;
+  background-image: url(../images/about-4.svg);
+  background-repeat: no-repeat;
+}
+.about-user-1 {
+  position: relative;
+  left: 20px;
+}
+.about-user-2 {
+  position: relative;
+  top: 260px;
+  left: 100px;
+}
+.about-user-3 {
+  position: relative;
+  left: 200px;
+  top: 140px;
+}
+.about-user-4 {
+  position: relative;
+  left: 30px;
+  bottom: 35px;
+}
+.about-user-5 {
+  position: relative;
+  left: 230px;
+  top: 110px;
+}
+.about-user-6 {
+  position: relative;
+  left: 240px;
+  top: 280px;
+}
+.about-user-7 {
+  position: relative;
+  left: 210px;
+  bottom: 20px;
 }
 /* about styles ends */
