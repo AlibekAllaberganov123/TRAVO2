@@ -68,6 +68,7 @@ sub {
   position: sticky;
   top: 0;
   background-color: #35aff40d;
+  z-index: 1000;
 }
 
 .header__wrapper {
@@ -83,13 +84,14 @@ sub {
 /* header styles ends */
 /* home styles starts */
 .home {
-  padding: 40px 0;
   background-color: #35aff40d;
 }
 .home__wrapper {
   display: flex;
+  align-items: center;
 }
 .home__left {
+  background-repeat: no-repeat;
   background-image: url(../images/home-bg.svg);
 }
 .home__title {
@@ -99,7 +101,7 @@ sub {
 .home__p {
   font-size: 20px;
   line-height: 30px;
-  margin: 30px 0;
+  margin: 40px 0;
 }
 .home__content {
   display: flex;
@@ -122,6 +124,19 @@ sub {
   background-color: #35aff40d;
   border-radius: 100px;
   padding: 20px;
+}
+.home__img {
+  height: 667px;
+}
+.home__img-2 {
+  position: relative;
+  left: 370px;
+  bottom: 160px;
+}
+.home__img-3 {
+  position: relative;
+  left: 260px;
+  bottom: 204px;
 }
 /* home styles ends */
 /* service style starts */
