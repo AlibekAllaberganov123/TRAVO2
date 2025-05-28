@@ -632,4 +632,11 @@ ol > li {
 .login__right {
   width: 445px;
 }
+.login__logo {
+  margin-bottom: 30px;
+}
+.login__form--access {
+  display: flex;
+  justify-content: space-between;
+}
 /* login department ends */
