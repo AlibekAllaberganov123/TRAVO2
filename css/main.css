@@ -45,7 +45,7 @@ html {
 ul {
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 60px;
 }
 li {
   list-style: none;
@@ -576,3 +576,60 @@ ol > li {
   gap: 15px;
 }
 /* footer styles ends */
+/* sign up department starts */
+.sign__wrapper {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.sign__right {
+  width: 445px;
+}
+.sign__title {
+  font-size: 30px;
+  font-weight: 700;
+}
+.sign__description {
+  margin-bottom: 30px;
+  line-height: 26px;
+}
+.sign__form--title {
+  font-size: 12px;
+  line-height: 20px;
+}
+.sign__form--input {
+  width: 445px;
+  border: 1px solid #35aff4;
+  outline: none;
+  border-radius: 10px;
+  font-size: large;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.sign__form--p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.sign__btn {
+  width: 445px;
+  font-size: 16px;
+  background-color: #35aff4;
+  border-radius: 10px;
+  padding: 20px;
+  border: none;
+  color: #fff;
+}
+/* sign up department ends */
+/* login department starts */
+.login__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.login__right {
+  width: 445px;
+}
+/* login department ends */

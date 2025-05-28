@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>TRAVO/Sign Up</title>
+  </head>
+  <body>
+    <section class="sign">
+      <div class="sign__wrapper">
+        <div class="sign__left">
+          <img
+            class="sign__img"
+            src="./images/Sign up-2.svg"
+            alt="sign img-1"
+          />
+        </div>
+        <div class="sign__right">
+          <h2 class="sign__title">Create New Account</h2>
+          <p class="sign__description description">Please enter details</p>
+          <form class="sign__form">
+            <label class="sign__form--title" for="username">First Name</label>
+            <input
+              class="sign__form--input"
+              type="text"
+              id="username"
+              name="username"
+              required
+            />
+            <label class="sign__form--title" for="lastname">Last Name</label>
+            <input
+              class="sign__form--input"
+              type="text"
+              id="lastname"
+              name="lastname"
+              required
+            />
+            <label class="sign__form--title" for="email">Email Address</label>
+            <input
+              class="sign__form--input"
+              type="email"
+              id="email"
+              name="email"
+              required
+            />
+            <label class="sign__form--title" for="password">Password</label>
+            <input
+              class="sign__form--input"
+              type="password"
+              id="password"
+              name="password"
+            />
+
+            <p class="sign__form--p">
+              <input type="checkbox" />
+              I agree to the <strong>Terms & Conditions</strong>
+            </p>
+            <button class="sign__btn">Signup</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
